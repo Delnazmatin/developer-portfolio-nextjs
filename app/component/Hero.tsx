@@ -1,5 +1,5 @@
 import { hero } from "../data/hero";
-import profile from "../picture/profile.jpg";
+import profile from "../picture/profile2.jpg";
 import Image from "next/image";
 import { Button } from "@/components/ui/button";
 
