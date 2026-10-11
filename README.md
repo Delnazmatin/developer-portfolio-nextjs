@@ -1,36 +1,110 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Saeed Jalali — Developer Portfolio
 
-## Getting Started
+A modern, responsive developer portfolio website built to showcase Saeed Jalali's professional experience, technical skills, education, and projects.
 
-First, run the development server:
+## 🚀 Tech Stack
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+- **Next.js** — React framework for building web applications
+- **React** — Component-based user interface
+- **TypeScript** — Static typing for more reliable code
+- **Tailwind CSS** — Utility-first CSS styling
+- **shadcn/ui** — Reusable UI components
+- **React Icons** — Icon library
+
+## ✨ Features
+
+- Responsive layout for desktop, tablet, and mobile devices
+- Hero section with profile information and CV download
+- Skills section organized by technical categories
+- Professional experience with responsibilities and achievements
+- Education section
+- Navigation with smooth scrolling between sections
+- Footer with email, LinkedIn, and GitHub links
+- Reusable React components
+- Consistent styling with a custom color palette
+
+## 📁 Project Structure
+
+```text
+saeed-portfolio/
+├── app/
+├── components/
+│   └── ui/
+├── public/
+│   └── resume/
+├── ...
+├── package.json
+└── README.md
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🛠️ Getting Started
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Prerequisites
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- Node.js
+- npm
 
-## Learn More
+### Installation
 
-To learn more about Next.js, take a look at the following resources:
+1. Clone the repository:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+   ```bash
+   git clone <your-repository-url>
+   ```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+2. Navigate to the project directory:
 
-## Deploy on Vercel
+   ```bash
+   cd saeed-portfolio
+   ```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+3. Install dependencies:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+   ```bash
+   npm install
+   ```
+
+4. Start the development server:
+
+   ```bash
+   npm run dev
+   ```
+
+5. Open http://localhost:3000 in your browser.
+
+## 📄 Resume Setup
+
+Place the CV PDF file in the `public/resume/` directory and update the download link in the Hero component to match the file name.
+
+## ⚙️ Customization
+
+- Update personal information in the data files.
+- Modify skills and experience in the corresponding data modules.
+- Replace the profile image with the desired image.
+- Update email, LinkedIn, and GitHub URLs in the Footer component.
+- Customize colors and styles using Tailwind CSS.
+
+## 📦 Build
+
+To create a production build:
+
+```bash
+npm run build
+```
+
+To run the production server locally:
+
+```bash
+npm run start
+```
+
+## 👨‍💻 Author
+
+**Saeed Jalali**
+
+- GitHub: [Your GitHub Profile](https://github.com/saeedjalalisj)
+- LinkedIn: [Your LinkedIn Profile](https://www.linkedin.com/in/saeed-jalali-sj/)
+
+---
+
+Built with Next.js, TypeScript, and Tailwind CSS.
